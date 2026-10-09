@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="01InroToOOP/01InroToOOP.vcxproj" Id="8fe69c28-0bc8-447f-bfb7-b3aacac43270" />
+</Solution>
