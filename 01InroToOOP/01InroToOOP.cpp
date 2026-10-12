@@ -115,6 +115,200 @@ struct Player // public
 //        return (double)summa / 3;
 //    }
 //};
+// Exercice 1
+
+class Student
+{
+private:
+    string name;
+    string birthDate;
+    string phone;
+    string city;
+    string country;
+    string institution;
+    string institutionCity;
+    string institutionCountry;
+    int groupNumber;
+public:
+    void Init()
+    {
+        cout << "Enter full name: ";
+        getline(cin, name);
+
+        cout << "Enter birth date: ";
+        getline(cin, birthDate);
+
+        cout << "Enter phone: ";
+        getline(cin, phone);
+
+        cout << "Enter city: ";
+        getline(cin, city);
+
+        cout << "Enter country: ";
+        getline(cin, country);
+
+        cout << "Enter educational institution: ";
+        getline(cin, institution);
+
+        cout << "Enter institution city: ";
+        getline(cin, institutionCity);
+
+        cout << "Enter institution country: ";
+        getline(cin, institutionCountry);
+
+        cout << "Enter group number: ";
+        cin >> groupNumber;
+    }
+    void Print()
+    {
+        cout << endl << "------ Student information ----- " << endl;
+        cout << "Full name: "<< name << endl;
+        cout << "Birth date: "<< birthDate << endl;
+        cout << "Phone: "<< phone << endl;
+        cout << "City: "<< city << endl;
+        cout << "Country: "<< country << endl;
+        cout << "Institution: "<< institution << endl;
+        cout << "Institution city: "<< institutionCity << endl;
+        cout << "Institution coutry: "<< institutionCountry << endl;
+        cout << "Group number:" << groupNumber<< endl;
+    }
+
+    void setName(string name)
+    {
+        this->name = name;
+    }
+
+    void setBirthDate(string birthDate)
+    {
+        this->birthDate = birthDate;
+    }
+
+    void setPhone(string phone)
+    {
+        this->phone = phone;
+    }
+
+    void setCity(string city)
+    {
+        this->city = city;
+    }
+
+    void setCountry(string country)
+    {
+        this->country = country;
+    }
+
+    void setInstitution(string institution)
+    {
+        this->institution = institution;
+    }
+
+    void setInstitutionCoutry(string institutionCountry)
+    {
+        this->institutionCountry = institutionCountry;
+    }
+
+    void setGroupNumber(int groupNumber)
+    {
+        this->groupNumber = groupNumber;
+    }
+
+
+    string getName()
+    {
+        return name;
+    }
+
+    string getBirthDate()
+    {
+        return birthDate;
+    }
+
+    string getPhone()
+    {
+        return phone;
+    }
+
+    string getCity()
+    {
+        return city;
+    }
+
+    string getCoutnry()
+    {
+        return country;
+    }
+
+    string getInstitution()
+    {
+        return institution;
+    }
+
+    string getInstitutionCity()
+    {
+        return institutionCity;
+    }
+
+    string getInstitutionCountry()
+    {
+        return institutionCountry;
+    }
+
+    int getGroupNumber()
+    {
+        return groupNumber;
+    }
+    void SaveToFile()
+    {
+        ofstream file("student.txt");
+            if (file.is_open())
+            {
+                file << name << endl;
+                file << birthDate << endl;
+                file << phone << endl;
+                file << city << endl;
+                file << country << endl;
+                file << institution << endl;
+                file << institutionCity << endl;
+                file << institutionCountry << endl;
+                file << groupNumber << endl;
+
+                file.close();
+                cout << "Data saved to file! " << endl;
+            }
+            else
+            {
+                cout << "Error opening file!" << endl;
+            }
+    }
+
+    void LoadFromFile()
+    {
+        ifstream file("student.txt");
+        if (file.is_open())
+        {
+            getline(file, name);
+            getline(file, birthDate);
+            getline(file, phone);
+            getline(file, city);
+            getline(file, country);
+            getline(file, institution);
+            getline(file, institutionCity);
+            getline(file, institutionCountry);
+
+            file >> groupNumber;
+
+            file.close();
+            cout << "Data loaded from file!" << endl;
+        }
+        else
+        {
+            cout << "Error opening file!" << endl;
+        }
+    }
+};
+
+
 //Exercice 2
 
 class Point
@@ -248,8 +442,37 @@ int main()
             AddGameToPlayer(player,2);
             PrintPlayer(player);*/
     }
+    //Exercice 1
 
     {
+        Student st;
+        st.Init();
+        st.Print();
+
+        st.SaveToFile();
+        st.setName("Test Name");
+        
+        cout << endl << "----- Changed data -----" << endl;
+        st.Print();
+        
+        st.LoadFromFile();
+        cout << endl << "---- Loaded data ----" << endl;
+        st.Print(); 
+
+        //cout << endl << "----- Getters example -----" << endl;
+        //cout << "Name: " << st.getName() << endl;
+        //cout << "Phone: " << st.getPhone() << endl;
+        //cout << "Group: " << st.getGroupNumber() << endl;
+
+        //st.setName("Mariya Brandt");
+        //cout << endl << "Changed name: " << st.getName() << endl;
+
+    }
+
+
+
+    //Exercice 2
+ /*   {
         Point p;
 
         p.Init();
@@ -272,7 +495,7 @@ int main()
         cout << endl << "Loaded coordinates: " << endl;
         p.Print();
 
-    }
+    }*/
 
 
 }
