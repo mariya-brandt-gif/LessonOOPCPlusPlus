@@ -6,4 +6,6 @@
   <Project Path="01InroToOOP/01InroToOOP.vcxproj" Id="8fe69c28-0bc8-447f-bfb7-b3aacac43270" />
   <Project Path="02_Constructor/02_Constructor.vcxproj" Id="ac0d0b3f-9d57-4f1d-84b8-697fe8b797d8" />
   <Project Path="02_HomeWork/02_HomeWork.vcxproj" Id="b896d694-ef26-48d4-b226-34b361e65839" />
+  <Project Path="03_CopyConstructor/03_CopyConstructor.vcxproj" Id="90352dce-ac7e-4729-9b46-c75c516953f2" />
+  <Project Path="03_Exercice_1_Class_Array/03_Exercice_1_Class_Array.vcxproj" Id="ae2108af-ab10-4d35-96ff-78d721ca1d03" />
 </Solution>
