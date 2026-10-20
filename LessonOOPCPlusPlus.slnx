@@ -8,6 +8,7 @@
   <Project Path="02_HomeWork/02_HomeWork.vcxproj" Id="b896d694-ef26-48d4-b226-34b361e65839" />
   <Project Path="03_CopyConstructor/03_CopyConstructor.vcxproj" Id="90352dce-ac7e-4729-9b46-c75c516953f2" />
   <Project Path="03_Exercice_1_Class_Array/03_Exercice_1_Class_Array.vcxproj" Id="ae2108af-ab10-4d35-96ff-78d721ca1d03" />
+  <Project Path="04_Inline_DelegationStatic/04_Inline_DelegationStatic.vcxproj" Id="9c542e7a-0e8f-4e18-8f7c-54d0f18aff11" />
   <Project Path="05_ConstExplicit/05_ConstExplicit.vcxproj" Id="c26b25f9-2e37-4ebc-9d9e-6382d389df23" />
   <Project Path="Übung allg/Übung allg.vcxproj" Id="35378edc-d020-42d7-af67-1e0281b30c6f" />
 </Solution>
