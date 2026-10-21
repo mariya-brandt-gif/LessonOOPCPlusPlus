@@ -10,5 +10,7 @@
   <Project Path="03_Exercice_1_Class_Array/03_Exercice_1_Class_Array.vcxproj" Id="ae2108af-ab10-4d35-96ff-78d721ca1d03" />
   <Project Path="04_Inline_DelegationStatic/04_Inline_DelegationStatic.vcxproj" Id="9c542e7a-0e8f-4e18-8f7c-54d0f18aff11" />
   <Project Path="05_ConstExplicit/05_ConstExplicit.vcxproj" Id="c26b25f9-2e37-4ebc-9d9e-6382d389df23" />
+  <Project Path="06_OverloadOperatos.cpp/06_OverloadOperatos.cpp.vcxproj" Id="43c5deab-2d30-49bd-b7c1-a164b1165e75" />
+  <Project Path="06_Practical_work/06_Practical_work.vcxproj" Id="3f13b611-9d57-43e1-b2e9-647eeef1dc55" />
   <Project Path="Übung allg/Übung allg.vcxproj" Id="35378edc-d020-42d7-af67-1e0281b30c6f" />
 </Solution>
