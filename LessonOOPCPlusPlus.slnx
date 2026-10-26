@@ -15,5 +15,7 @@
   <Project Path="06_3_Home_work/06_3_Home_work.vcxproj" Id="9d3eeb9f-3e42-4a74-82a2-369ac37ea6ea" />
   <Project Path="06_OverloadOperatos.cpp/06_OverloadOperatos.cpp.vcxproj" Id="43c5deab-2d30-49bd-b7c1-a164b1165e75" />
   <Project Path="06_Practical_work/06_Practical_work.vcxproj" Id="3f13b611-9d57-43e1-b2e9-647eeef1dc55" />
+  <Project Path="07_PracticalWork/07_PracticalWork.vcxproj" Id="f6918026-fa3b-4ec7-b3ec-630f59a53348" />
+  <Project Path="07_TemplateClass/07_TemplateClass.vcxproj" Id="1e10b1a3-1b31-4097-be15-3a50dd953dde" />
   <Project Path="Übung allg/Übung allg.vcxproj" Id="35378edc-d020-42d7-af67-1e0281b30c6f" />
 </Solution>
