@@ -1,0 +1,22 @@
+﻿  09_MoveConstructorOperator=.cpp
+C:\Users\Mariya\source\repos\LessonOOPCPlusPlus\09_MoveConstructorOperator=\book.h(24,2): error C2059: Syntaxfehler: "{"
+  (Quelldatei „09_MoveConstructorOperator=.cpp“ wird kompiliert)
+  
+C:\Users\Mariya\source\repos\LessonOOPCPlusPlus\09_MoveConstructorOperator=\book.h(24,2): error C2334: Unerwartete(s) Token vor "{"; sichtbarer Funktionstext wird übersprungen
+  (Quelldatei „09_MoveConstructorOperator=.cpp“ wird kompiliert)
+  
+C:\Users\Mariya\source\repos\LessonOOPCPlusPlus\09_MoveConstructorOperator=\book.h(29,11): error C2001: Zeilenumbruch im Zeichenfolgenliteral
+  (Quelldatei „09_MoveConstructorOperator=.cpp“ wird kompiliert)
+  
+  book.cpp
+C:\Users\Mariya\source\repos\LessonOOPCPlusPlus\09_MoveConstructorOperator=\book.h(24,2): error C2059: Syntaxfehler: "{"
+  (Quelldatei „book.cpp“ wird kompiliert)
+  
+C:\Users\Mariya\source\repos\LessonOOPCPlusPlus\09_MoveConstructorOperator=\book.h(24,2): error C2334: Unerwartete(s) Token vor "{"; sichtbarer Funktionstext wird übersprungen
+  (Quelldatei „book.cpp“ wird kompiliert)
+  
+C:\Users\Mariya\source\repos\LessonOOPCPlusPlus\09_MoveConstructorOperator=\book.h(29,11): error C2001: Zeilenumbruch im Zeichenfolgenliteral
+  (Quelldatei „book.cpp“ wird kompiliert)
+  
+C:\Users\Mariya\source\repos\LessonOOPCPlusPlus\09_MoveConstructorOperator=\book.cpp(9,10): error C2065: "None": nichtdeklarierter Bezeichner
+  Code wird generiert...
