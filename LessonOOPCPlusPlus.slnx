@@ -20,5 +20,7 @@
   <Project Path="07_TemplateClass/07_TemplateClass.vcxproj" Id="1e10b1a3-1b31-4097-be15-3a50dd953dde" />
   <Project Path="09_MoveConstructorOperator=/09_MoveConstructorOperator=.vcxproj" Id="922bf3bb-8552-4b36-9994-9166fd5e58e6" />
   <Project Path="09_Practical work/09_Practical work.vcxproj" Id="b64e6922-8e7b-47b2-b020-b31228cc132e" />
+  <Project Path="10_Practical work/10_Practical work.vcxproj" Id="22335ecf-8af1-43ac-a760-4b107f50e1e8" />
+  <Project Path="10_Stack/10_Stack.vcxproj" Id="ac5c7d61-d8d5-4b84-93c6-3a8fd1b7d905" />
   <Project Path="Übung allg/Übung allg.vcxproj" Id="35378edc-d020-42d7-af67-1e0281b30c6f" />
 </Solution>
