@@ -24,3 +24,7 @@ public:
 
     Point operator!() const;
 };
+
+class point
+{
+};

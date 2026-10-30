@@ -1,63 +1,85 @@
 
 #include <iostream>
 #include "Point.h"
+#include "Vector.h"
 using namespace std;
 
 int main()
 {
-    Point p1;
-    Point p2(3, 5);
+    {
+        Vector v;
 
-    cout << "Point 1: ";
-    p1.Print();
+        Point p1(2, 3);
+        Point p2(5, 7);
+        Point p3(8, 1);
 
-    cout << "Point 2: ";
-    p2.Print();
+        v.Add(p1);
+        v.Add(p2);
+        v.Add(p3);
 
-    Point p3(p2);
-    p3.Print();
+        v.Print();
 
+        cout << endl << endl;
 
-
-    cout << "Before ++: ";
-    p2.Print();
-
-    ++p2;
-
-    cout << "After ++: ";
-    p2.Print();
+    }
 
 
 
-    cout << "Before --: ";
-    p2.Print();
+    {
+        Point p1;
+        Point p2(3, 5);
 
-    --p2;
+        cout << "Point 1: ";
+        p1.Print();
 
-    cout << "After --: ";
-    p2.Print();
+        cout << "Point 2: ";
+        p2.Print();
 
-
-
-
-    Point a(3, 4);
-    Point b(1, 2);
-
-    if (a > b)
-        cout << "a is farther from origin\n";
-
-    if (a < b)
-        cout << "a is closer to origin\n";
+        Point p3(p2);
+        p3.Print();
 
 
 
-    Point p(3, 4);
+        cout << "Before ++: ";
+        p2.Print();
 
-    cout << "Original: ";
-    p.Print();
+        ++p2;
 
-    Point opposite = !p;
+        cout << "After ++: ";
+        p2.Print();
 
-    cout << "Opposite: ";
-    opposite.Print();
+
+
+        cout << "Before --: ";
+        p2.Print();
+
+        --p2;
+
+        cout << "After --: ";
+        p2.Print();
+
+
+
+
+        Point a(3, 4);
+        Point b(1, 2);
+
+        if (a > b)
+            cout << "a is farther from origin\n";
+
+        if (a < b)
+            cout << "a is closer to origin\n";
+
+
+
+        Point p(3, 4);
+
+        cout << "Original: ";
+        p.Print();
+
+        Point opposite = !p;
+
+        cout << "Opposite: ";
+        opposite.Print();
+    }
 }

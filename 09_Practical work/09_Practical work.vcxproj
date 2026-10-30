@@ -141,10 +141,12 @@
   <ItemGroup>
     <ClCompile Include="09_Practical work.cpp" />
     <ClCompile Include="Point.cpp" />
+    <ClCompile Include="vector.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Point.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="vector.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="09_Practical work.rc" />
